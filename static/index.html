@@ -27,8 +27,14 @@
     .key {
       color: red;
     }
-    pre{
+
+    pre {
       white-space: pre-wrap;
+      max-height: 350px;
+      overflow: auto;
+    }
+    img{
+      max-width: 400px
     }
   </style>
 </head>
@@ -70,7 +76,13 @@
         </pre>
   </section>
   <section class="section">
-    <div class="container image-cont">
+    <div class="columns">
+      <div class="column">
+        <canvas id="canvas"></canvas>
+      </div>
+      <div class="column image-cont">
+      </div>
+
     </div>
 
   </section>
